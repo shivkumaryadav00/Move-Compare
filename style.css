@@ -1,0 +1,120 @@
+.tutorial {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+
+section h1 {
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+}
+
+figure.image {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+figure .image img {
+  width: 128px;
+}
+
+.notification {
+  margin-top: 20px !important;
+}
+
+.results {
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.title .icon {
+  margin-left: 15px;
+}
+
+.hero {
+  margin-bottom: 20px;
+}
+
+.forms {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+.dropdown-item img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.full-container {
+  padding: 0 20px;
+  background-color: #182029;
+  height: 100vh;
+}
+
+body {
+  background-color: #182029;
+  overflow-x: hidden;
+}
+
+.tutorial h1,
+.tutorial p {
+  background-color: #182029;
+}
+
+.columns {
+  margin: 20px;
+}
+
+.columns label {
+  color: white;
+}
+
+.bg-main .notification.is-primary {
+  background-color: #182029;
+  border: 2px solid white;
+  width: 400px;
+}
+
+.notification.is-primary {
+  border: 2px solid white;
+  background-color: #182029;
+}
+
+.media-content,
+.media-content h1,
+.media-content h4 {
+  color: white;
+}
+
+.dropdown-content {
+  background-color: #222a34;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #222a34;
+  color: white;
+}
+.dropdown-menu a {
+  
+  color: white;
+}
+
+@media (max-width: 1200px) {
+  .columns {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #right-autocomplete {
+    margin-top: 40px;
+  }
+}
